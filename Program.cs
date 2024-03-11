@@ -13,7 +13,6 @@ namespace Beecrowd_Sphere_1011
             double R = Convert.ToDouble(Console.ReadLine());
             double Result = ((4 / 3.0) * 3.14159 * R * R * R);
 
-
             Console.WriteLine("VOLUME = {0:00.000}", Result);
             Console.ReadKey();
         }
